@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
+const Book = require('./models/Book.model');
 const server = express();
 const port = 8080;
 const hostname = 'localhost';
